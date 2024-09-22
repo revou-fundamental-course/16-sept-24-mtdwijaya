@@ -1,0 +1,55 @@
+
+/* HEADER */
+/* NAVBAR */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav>a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+/* NAVBAR LOGO ICON */
+.logo-icon {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+/* BODY */
+/* HOMEPAGE */
+
+/* HEADER-TEXT WWELCOMING */
+.welcoming-text {
+    text-align-last: center;
+    padding-top: 10px;
+}
+
+/* FOTO HOME PAGE */
+.foto-homepage {
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+/* HEADER BASECAMP */
+.header-basecamp {
+    text-align:center ;
+    margin-bottom: -8px;
+}
+
+/* LOCATION-CONTENT  */
+
