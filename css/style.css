@@ -52,4 +52,49 @@ nav>a {
 }
 
 /* LOCATION-CONTENT  */
+.location {
+    display: flex;
+    place-content: space-evenly;
+}
 
+.lingkaran {
+    width: 200px; /* Ukuran lingkaran */
+    height: 200px; /* Ukuran lingkaran */
+    border: 1px solid black; /* Ketebalan dan warna border */
+    border-radius: 50%; /* Membuat menjadi lingkaran */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jakabaring {
+    text-align: center; /* Meratakan teks di tengah */
+    margin: 20px; /* Jarak antar lokasi */
+    background-image: url(https://lh5.googleusercontent.com/p/AF1QipMaN_cCDXFJZysILrmPwVIbGxs94iDFNfdOSt6a=w408-h544-k-no);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+
+.ptcmall {
+    text-align: center; /* Meratakan teks di tengah */
+    margin: 20px; /* Jarak antar lokasi */
+    background-image: url(../assets/PTCMALL\ \(2\).png);
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.location a {
+    text-decoration: none;
+    color: black;
+}
+
+.horizontal-line {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
